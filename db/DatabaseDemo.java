@@ -20,7 +20,7 @@ public class DatabaseDemo {
                 System.out.println("***********************************");
                 System.out.println("Emp_ID-->"+rs.getInt(1));
                 System.out.println("Emp_Name-->"+rs.getString(2));
-		    System.out.println("Emp_Name-->"+rs.getString(3));
+		    System.out.println("Emp_Department-->"+rs.getString(3));
                 System.out.println("Emp_Salary-->"+rs.getDouble(4));
             }
             smt.close();
