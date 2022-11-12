@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Task11
+{
+	public static void convert(double meter,double totalsec)
+	{
+		double ms= meter/totalsec;
+		System.out.println("Your speed in meters/second is "+ms);
+	}
+	public static void main(String args[])
+	{
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter Distance in meters: ");
+		double meter = in.nextDouble();
+		System.out.println("Input hour: ");
+		double hr = in.nextDouble();
+		System.out.println("Input mins: ");
+		double min = in.nextDouble();
+		System.out.println("Input secs: ");
+		double sec = in.nextDouble();
+		convert(meter,(hr*60*60)+(min*60)+sec);		
+	}
+}
