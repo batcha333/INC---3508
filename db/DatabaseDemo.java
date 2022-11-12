@@ -13,9 +13,6 @@ public class DatabaseDemo {
             System.out.println("Connected..........");
             smt=con.createStatement();
             ResultSet rs = smt.executeQuery("SELECT * FROM mytable;");
-	    //int n=smt.executeUpdate("INSERT into emp values(1200,'MariShankar',25000.0)");
-	    //if(n>=0)
-		//System.out.println("One row updated.........");
             System.out.println("ResultSet generated..........");
            
             while(rs.next())
