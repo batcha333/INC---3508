@@ -1,5 +1,5 @@
 import java.util.*;
-public class Pattern1
+public class DiagonalTopLeftPattern
 {
 	void printMatrix(int[][] matrix)
 	{
