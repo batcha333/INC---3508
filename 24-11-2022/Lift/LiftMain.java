@@ -12,9 +12,7 @@ public class LiftMain
 		if(location[0]!=-1 && location[1]!=-1)
 		{
 			int l0 = location[0];
-			l0 = (location[0]==0)?5:0;
 			int l1 = location[1];
-			l1 = (location[1]==0)?5:0;
 			int a = Math.abs(s-l0);
 			int b = Math.abs(s-l1);	
 			int ans = Math.min(a,b);
