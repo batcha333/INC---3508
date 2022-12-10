@@ -14,18 +14,18 @@ public class Permutation
 		str[a] = str[b];
 		str[b] = temp;
 	}
-	static void permute(char[] str,int c)
+	static void permute(char[] str,int k)
 	{
-		if(c==str.length-1)
+		if(k==str.length-1)
 		{
 			printPermute(str);
 			return;
 		}
-		for(int i=c;i<str.length;i++)
+		for(int i=k;i<str.length;i++)
 		{
-			swap(str,i,c);
-			permute(str,c+1);
-			swap(str,i,c);
+			swap(str,i,k);
+			permute(str,k+1);
+			swap(str,i,k);
 		}
 	}
 	public static void main(String[] args)

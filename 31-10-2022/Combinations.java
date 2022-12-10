@@ -27,7 +27,7 @@ public class Combinations
 	{
 		Combinations c = new Combinations();
 		ArrayList<int[]> list = new ArrayList<>();
-		int[] array = {1,2,3,4};
+		int[] array = {1,2,3};
 		//int range = 3;
 		for(int range=0;range<=array.length;range++)
 		{
