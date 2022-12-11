@@ -4,6 +4,8 @@ class Employee
 	private int yearOfJoining;
 	private int employeeSalary;
 	private String employeeAddress;
+    public String name;
+    public String address;
 	public void getEmployee()
 	{	
 		employeeName = name;
