@@ -97,8 +97,8 @@ public class Main
 		productList.add(new Product("Dettol",50,'W'));
 		productList.add(new Product("LifeBuoy",60,'W'));
 		productList.add(new Product("DairyMilk",20,'E'));
-		productList.add(new Product("5Star",15,'E'));
-		sc.doSerialization(productList);*/
+		productList.add(new Product("5Star",15,'E'));*/
+		sc.doSerialization(productList);
 		boolean flag = true;
 		while(flag)
 		{
